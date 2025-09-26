@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horari</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="simple.html">simple html</a>
+                </li>
+                <li>
+                    <a href="tablas.html">tablas</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Taules en HTML</h1>
+    <section>
+        <h2>Exemple Bàsic</h2>
+        <table border="1">
+        <head>
+            <thead>
+                <tr>
+                    <th>Nom</th>
+                    <th>Edat</th>
+                    <th>Profesió</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ana Pérez</td>
+                    <td>28</td>
+                    <td>Desarrolladora</td>
+                </tr>
+                <tr>
+                    <td>Carles Ruíz</td>
+                    <td>34</td>
+                    <td>Disenyador</td>
+                </tr>
+            </tbody>
+        </head>
+        </table>
+        <h2>Colspan y Rowspan</h2>
+        <table border="1">
+            <tr>
+                <th rowspan="2">Producte</th>
+                <th rowspan="2">Preu</th>
+            </tr>
+            <tr>
+                <th>Unitat</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td>Kiwis</td>
+                <td>2€</td>
+                <td>10€</td>
+            </tr>
+        </table>
+        <h2>Horari</h2>
+        <table border="1">
+            <tr>
+                <th>HORA</th>
+                <th>Dilluns</th>
+                <th>Dimarts</th>
+                <th>Dimecres</th>
+                <th>Dijous</th>
+                <th>Divendres</th>
+            </tr>
+            <tr>
+                <td>15:00</td>
+                <td rowspan="2">SERVEIS EN XARXA</td>
+                <td rowspan="2">SOX</td>
+                <td>SOSTENIBILIDAD</td>
+                <td rowspan="3">APLICAICONS WEB</td>
+                <td rowspan="2">APLICAICONS WEB</td>
+
+            </tr>
+            <tr>
+                <td>15:55</td>
+                <td rowspan="2">SEGURETAT</td>
+                
+            </tr>
+            <tr>
+                <td>16:50</td>
+                <td>SEGURETAT</td>
+                <td>SERVEIS EN XARXA</td>
+                <td>IPO II</td>
+
+            </tr>
+            <tr>
+                <td>17:45-18:15</td>
+                <td colspan="5">PATI/DESCANS</td>
+                
+            </tr>
+            <tr>
+                <td>18:15</td>
+                <td>SEGURETAT</td>
+                <td>SERVEIS EN XARXA</td>
+                <td>SEGURETAT</td>
+                <td rowspan="3">SERVEIS EN XARXA</td>
+                <td rowspan="3">SOX</td>
+                
+
+            </tr>
+            <tr>
+                <td>19:10</td>
+                <td rowspan="2">PROJECTE INTERMODULAR</td>
+                <td rowspan="2">PROGRAMACIÓ</td>
+                <td rowspan="2">SOX</td>
+
+            </tr>
+            <tr>
+                <td>20:05</td>
+                <td></td>
+
+            </tr>
+        </table>
+    </section>
+</body>
+</html>
