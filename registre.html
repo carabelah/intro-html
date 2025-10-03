@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registre</title>
+</head>
+<body>
+    <h2>Formmulari de Registre</h2>
+
+<form action="registre.html" method="get">
+
+    <label for="nom">Nom</label>
+    <input type="text" id="nom" name="nom" required placeholder="Introdueix el teu nom">
+
+    <label for="cognoms">Cognoms</label>
+    <input type="text" id="cognoms" name="cognoms" required placeholder="Introdueix el teu cognoms">
+
+    <strong><p>Gènere</p></strong>
+
+    home:<input type="radio" id="home" name="genere" value="home">
+    dona:<input type="radio" id="dona" name="genere" value="dona">
+    altre:<input type="radio" id="altre" name="genere" value="altre">
+
+    
+    <label for="contrasenya">Contrasenya:</label>
+    <input type="password" id="contrasenya" name="contrasenya" required minlength="8" maxlength="20" placeholder="Introdueix contrasenya">
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required placeholder="Introdueix email">
+
+    <label for="data">Data</label>
+    <input type="date" id="data" name="data" required>
+
+
+    Estic d'acord amb els termes i condicions
+    <input type="checkbox" id="condicions" name="condicions" required>
+    <label for="termes">Accept els termmes i condicions</label>
+
+    <input type="submit" name="submit" value="Enviar">
+
+</form>
+
+</body>
+</html>
